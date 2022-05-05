@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Preferences">
+
+
+    <Button
+        android:id="@+id/btnPreferences"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/black"
+        android:fontFamily="sans-serif"
+        android:onClick="onClickLoad"
+        android:text="Load Preferences Screen"
+        android:textColor="#FDD835"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <Button
+        android:id="@+id/btnDisplayValues"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:fontFamily="sans-serif"
+        android:onClick="onClickDisplay"
+        android:text="Display Preferences Values"
+        android:textColor="#FDD835"
+        app:layout_constraintLeft_toLeftOf="@+id/btnPreferences"
+        app:layout_constraintRight_toRightOf="@+id/btnPreferences"
+        app:layout_constraintTop_toBottomOf="@+id/btnPreferences" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        app:layout_constraintLeft_toLeftOf="@+id/btnPreferences"
+        app:layout_constraintRight_toRightOf="@+id/btnPreferences"
+        app:layout_constraintTop_toBottomOf="@+id/btnDisplayValues"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnModifyValues"
+        android:layout_width="307dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:fontFamily="sans-serif"
+        android:onClick="onClickModify"
+        android:text="Modify Preferences Values"
+        android:textColor="#FDD835"
+        app:layout_constraintLeft_toLeftOf="@+id/btnDisplayValues"
+        app:layout_constraintRight_toRightOf="@+id/btnDisplayValues"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+
+    <PreferenceCategory android:title="Paper Theme"
+        >
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkboxPref"
+            android:summary="Use brown paper background"
+            android:title="Enabled" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Customization">
+
+        <EditTextPreference
+
+            android:title="Opening Text"
+            android:summary="Enter Welcome Message"
+            android:defaultValue="[Hello There!]"
+            android:key="editTextPref"
+            />
+
+        <MultiSelectListPreference
+            android:summary="Select Background Music"
+            android:title="Background Music"
+            android:key="musicPref"
+            />
+
+        <PreferenceScreen
+            android:title="More Preferences"
+            android:summary="Set More Preferences Here"
+            android:key="morePref">
+            <EditTextPreference
+
+                android:title="More Text"
+                android:summary="Enter Welcome Message"
+                android:defaultValue="[Set Text hHere!]"
+                android:key="more_editTextPref"
+                />
+        </PreferenceScreen>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

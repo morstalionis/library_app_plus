@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/preferences"
+        android:icon="@drawable/ic_prefs"
+        android:title="Preferences"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/add_note"
+        android:title="Placeholder1"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/add_quote"
+        android:title="Placeholder2"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rotation="180"
+        android:scaleType="center"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.492"
+        app:srcCompat="@drawable/ui_card" />
+
+    <TextView
+        android:id="@+id/view_set_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/adamina"
+        android:text="By:"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/view_year" />
+
+    <TextView
+        android:id="@+id/view_year"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/alegreya_sc_italic"
+        android:gravity="center"
+        android:text="1900"
+        android:textColor="#FDD835"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/view_title" />
+
+    <TextView
+        android:id="@+id/view_author"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="Author"
+        android:textColor="#FDD835"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/view_set_by" />
+
+    <TextView
+        android:id="@+id/view_title"
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:background="@null"
+        android:capitalize="characters"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:padding="5dp"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="Book Title"
+        android:textAllCaps="true"
+        android:textColor="#FDD835"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/view_title2"
+        android:layout_width="354dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ui_divider"
+        android:capitalize="characters"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:padding="15dp"
+        android:shadowColor="#000000"
+        android:shadowDx="10"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        android:text="EXCERPT"
+        android:textAllCaps="true"
+        android:textColor="#FDD835"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/view_author" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_title2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/view_excerpt"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/antic_slab"
+                android:gravity="start"
+                android:text="Excerpt"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/update_details_btn"
+        android:layout_width="139dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/ui_button"
+        android:fontFamily="@font/adamina"
+        android:text="Update Info"
+        android:textColor="#FDD835"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/view_title2" />
+
+    <Button
+        android:id="@+id/delete_entry_btn"
+        android:layout_width="139dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/ui_button"
+        android:fontFamily="@font/adamina"
+        android:text="DELETE ENTRY"
+        android:textColor="#FDD835"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/update_details_btn"
+        app:layout_constraintEnd_toEndOf="@+id/view_title2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

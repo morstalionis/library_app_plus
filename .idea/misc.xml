@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/drawable/ic_add.xml" value="0.162" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/drawable/ic_more.xml" value="0.118" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/drawable/ic_more_options.xml" value="0.1685" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/drawable/ic_prefs.xml" value="0.199" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/font/.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/font/adamina.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/font/alef.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/activity_add_entry.xml" value="0.25" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/activity_art.xml" value="0.22" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/activity_greatworks.xml" value="0.25" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/activity_greatworks_frag1.xml" value="0.209375" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/activity_greatworks_frag2.xml" value="0.209375" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/activity_greatworks_frag3.xml" value="0.209375" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/activity_people.xml" value="0.209375" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/activity_preferences.xml" value="0.22" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/activity_read_lit_entry.xml" value="0.22" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/activity_select_entry_type.xml" value="0.209375" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/activity_update_entry.xml" value="0.25" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/activity_wonder_viewer.xml" value="0.25" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/activity_wonders.xml" value="0.2" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/dialog_add_entry.xml" value="0.22" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/dialog_read_lit.xml" value="0.2" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/dialog_select_entry.xml" value="0.22" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/dialog_update_entry.xml" value="0.25" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/fragment1_layout.xml" value="0.209375" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/fragment2_layout.xml" value="0.209375" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/fragment_art.xml" value="0.22" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/greatworks_items.xml" value="0.33" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/wonder_items.xml" value="0.209375" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/wonder_row.xml" value="0.22" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/layout/wonder_viewer.xml" value="0.209375" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/menu/gw_menu.xml" value="0.209375" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/menu/top_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Shane Ivan Fallar/AndroidStudioProjects/Monumental_V2/app/src/main/res/xml/myapppreferences.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

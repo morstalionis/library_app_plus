@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_act"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/people_btn"
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/ui_people_pic_full"
+        android:scaleType="fitCenter"
+        android:textColor="#2C2C2C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wonder_btn"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/wonder_btn"
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/ui_wonder_pic_full"
+        android:scaleType="fitCenter"
+        android:textColor="#2C2C2C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/art_btn"
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/ui_art_pic_full"
+        android:scaleType="fitCenter"
+        android:textColor="#2C2C2C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/people_btn"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
